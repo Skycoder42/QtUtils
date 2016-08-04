@@ -12,3 +12,7 @@ The DialogMaster is one of the various modules of the library. If you need this 
  1. Use the QtUtils.lib provided in the realeases. It includes all modules, including the DialogMaster
  2. Add a submodule to your project and checkout the "DialogMaster" branch. This way you will only have the dialog master in your projekt
  3. Same as 2, but with the master branch, if you need all of the modules
+
+## Modules
+### DialogMaster
+The dialog master provides advanced dialogs in Qt, automatically handling modality, window icons resizing and more!
