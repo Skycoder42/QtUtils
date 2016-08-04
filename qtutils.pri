@@ -1,0 +1,1 @@
+include(./DialogMaster/dialogmaster.pri)
