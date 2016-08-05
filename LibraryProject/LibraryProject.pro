@@ -6,8 +6,17 @@
 
 QT       += widgets
 
-TARGET = LibraryProject
+TARGET = $$qtLibraryTarget(QtUtils)
+VERSION = 1.0.0
 TEMPLATE = lib
 CONFIG += staticlib
 
 include(../qtutils.pri)
+
+HEADERS += \
+	qtutilslibrary.h
+
+SOURCES += \
+    qtutilslibrary.cpp
+
+OTHER_FILES += QtUtils
