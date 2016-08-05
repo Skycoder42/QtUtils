@@ -1,0 +1,7 @@
+#ifndef QTUTILS_H
+#define QTUTILS_H
+
+#include "dialogmaster.h"
+#include "qpropertysettings.h"
+
+#endif // QTUTILS_H

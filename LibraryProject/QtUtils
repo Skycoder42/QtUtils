@@ -1,8 +1,0 @@
-#ifndef QTUTILS_H
-#define QTUTILS_H
-
-#include "qtutilslibrary.h"
-#include "DialogMaster/dialogmaster.h"
-#include "QPropertySettings/qpropertysettings.h"
-
-#endif // QTUTILS_H
