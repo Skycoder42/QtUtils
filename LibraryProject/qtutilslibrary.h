@@ -13,9 +13,10 @@ public:
 		QPropertySettings = (0x02 << 24) | (0x010000 >> 8)
 	};
 
+	static bool ensureUtilAvailable(SupportedUtils util);
 	static QVersionNumber utilVersion(SupportedUtils util);
 };
 
-#define ENSURE_UTIL_AVAILABLE(x) (void)(QtUtilsLibrary::SupportedUtils)x
+#define STATIC_UTIL_AVAILABLE(x) (void)(QtUtilsLibrary::SupportedUtils)x
 
 #endif // QTUTILSLIBRARY_H

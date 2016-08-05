@@ -11,6 +11,8 @@ VERSION = 1.0.0
 TEMPLATE = lib
 CONFIG += staticlib
 
+win32:CONFIG += skip_target_version_ext
+
 include(../qtutils.pri)
 
 HEADERS += \
