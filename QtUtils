@@ -3,5 +3,6 @@
 
 #include "dialogmaster.h"
 #include "qpropertysettings.h"
+#include "qelementmodel.h"
 
 #endif // QTUTILS_H

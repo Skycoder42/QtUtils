@@ -5,12 +5,15 @@
 #include <QStringList>
 #include <QVersionNumber>
 
+#define ENUM_ID(index, versionMajor, versionMinor, versionPatch) (index << 24) | (QT_VERSION_CHECK(versionMajor, versionMinor, versionPatch) >> 8)
+
 class QtUtilsLibrary
 {
 public:
 	enum SupportedUtils : quint32 {
-		DialogMaster = (0x01 << 24) | (0x020000 >> 8),
-		QPropertySettings = (0x02 << 24) | (0x010000 >> 8)
+		DialogMaster = ENUM_ID(1, 2, 0, 0),
+		QPropertySettings = ENUM_ID(2, 1, 0, 0),
+		QElementModel = ENUM_ID(3, 1, 0, 0)
 	};
 
 	static bool ensureUtilAvailable(SupportedUtils util);

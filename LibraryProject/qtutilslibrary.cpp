@@ -2,7 +2,8 @@
 
 static QVector<quint8> knownUtils = {
 	0x01,//DialogMaster
-	0x02//QPropertySettings
+	0x02,//QPropertySettings
+	0x03//QElementModel
 };
 
 bool QtUtilsLibrary::ensureUtilAvailable(QtUtilsLibrary::SupportedUtils util)
