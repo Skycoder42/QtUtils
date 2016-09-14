@@ -88,6 +88,11 @@ Qt::ItemFlags QElementModel::flags(const QModelIndex &index) const
 	return flags;
 }
 
+QObject *QElementModel::element(int index) const
+{
+	return this->elements[index];
+}
+
 void QElementModel::append(QObject *object, bool takeOwn)
 {
 	auto index = this->elements.size();

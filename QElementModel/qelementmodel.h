@@ -26,6 +26,7 @@ public:
 	bool setData(const QModelIndex &index, const QVariant &value, int role = Qt::EditRole) override;
 	Qt::ItemFlags flags(const QModelIndex& index) const override;
 
+	QObject *element(int index) const;
 	void append(QObject *object, bool takeOwn = true);
 	QObject *append(QHash<QString, QVariant> fieldMap);
 	void insert(int index, QObject *object, bool takeOwn = true);
