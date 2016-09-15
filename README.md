@@ -18,3 +18,6 @@ The DialogMaster is one of the various modules of the library. If you need this 
 ## Modules
 ### DialogMaster
 The dialog master provides advanced dialogs in Qt, automatically handling modality, window icons resizing and more!
+
+### QPropertySettings
+The property settings are an extension for QSettings to autmatically store properties of an object in the settings.
