@@ -21,5 +21,6 @@ The dialog master provides advanced dialogs in Qt, automatically handling modali
 
 ### QPropertySettings
 The property settings are an extension for QSettings to autmatically store properties of an object in the settings.
+
 ### QElementModel
 The element model provides a object-based list model with dynamic roles to be used with QML Views.
