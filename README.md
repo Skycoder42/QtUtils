@@ -14,3 +14,7 @@ The DialogMaster is one of the various modules of the library. If you need this 
  3. Same as 2, but with the master branch, if you need all of the modules.
  4. Same as 3, but use the library branch. This way you don't have to compile the utils. Note: 3 and 4 are compatible. You can easily switch between both of them. If you added the library via the `.pri` file, nothing will change from the outside.
  5. Build it yourself. This is, of course, always an option ;)
+
+## Modules
+### QSslServer
+The QSslServer is an extension of the [QTcpServer](https://doc.qt.io/qt-5/qtcpserver.html) to provide a server that can handle ssl connections. It works just like the tcp version, but with ssl, and uses the [QSslSocket](https://doc.qt.io/qt-5/qsslsocket.html) for connections.
