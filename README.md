@@ -14,3 +14,8 @@ The DialogMaster is one of the various modules of the library. If you need this 
  3. Same as 2, but with the master branch, if you need all of the modules.
  4. Same as 3, but use the library branch. This way you don't have to compile the utils. Note: 3 and 4 are compatible. You can easily switch between both of them. If you added the library via the `.pri` file, nothing will change from the outside.
  5. Build it yourself. This is, of course, always an option ;)
+
+## Modules
+### QFlowLayout
+The Flow layout from Qts flow layout example, with soem adjustments and improvements. for the original, see here: https://doc.qt.io/qt-5/qtwidgets-layouts-flowlayout-example.html.
+As the same suggests, it's a layout implementation to organize elements in a dynamic flow.
