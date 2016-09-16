@@ -3,7 +3,11 @@
 static QVector<quint8> knownUtils = {
 	0x01,//DialogMaster
 	0x02,//QPropertySettings
-	0x03//QElementModel
+	0x03,//QElementModel
+	0x04,//QCompressor
+	0x05,//QFlowLayout
+	0x06,//QProgressGroup
+	0x07,//QSslServer
 };
 
 bool QtUtilsLibrary::ensureUtilAvailable(QtUtilsLibrary::SupportedUtils util)

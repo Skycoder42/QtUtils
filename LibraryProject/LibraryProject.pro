@@ -4,10 +4,10 @@
 #
 #-------------------------------------------------
 
-QT       += widgets
+QT       += widgets network
 
 TARGET = $$qtLibraryTarget(QtUtils)
-VERSION = 1.0.0
+VERSION = 2.0.0
 TEMPLATE = lib
 CONFIG += staticlib
 
@@ -15,10 +15,8 @@ win32:CONFIG += skip_target_version_ext
 
 include(../qtutils.pri)
 
-HEADERS += \
-	qtutilslibrary.h
+HEADERS += qtutilslibrary.h
 
-SOURCES += \
-    qtutilslibrary.cpp
+SOURCES += qtutilslibrary.cpp
 
-OTHER_FILES += QtUtils
+DISTFILES += ../QtUtils

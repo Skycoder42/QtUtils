@@ -1,8 +1,18 @@
 #ifndef QTUTILS_H
 #define QTUTILS_H
 
-#include "dialogmaster.h"
 #include "qpropertysettings.h"
 #include "qelementmodel.h"
+#include "qcompressor.h"
+
+#ifdef QT_WIDGETS_LIB
+#include "dialogmaster.h"
+#include "qflowlayout.h"
+#include "qprogressgroup.h"//TODO include all...
+#endif
+
+#ifdef QT_NETWORK_LIB
+#include "qsslserver.h"
+#endif
 
 #endif // QTUTILS_H
