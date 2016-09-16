@@ -26,3 +26,7 @@ The property settings are an extension for QSettings to autmatically store prope
 The element model provides a object-based list model with dynamic roles to be used with QML Views.
 ### QCompressor
 A class to compress data of any size, by splitting it into chucks that Qt's build in compression algorithms can handel. This is NOT a Zip-library. It simply compresses binary data, without any metadata or compability with other tools (but cross-plattform, i.e. data can be compressed and extracted on different devices)
+
+### QFlowLayout
+The Flow layout from Qts flow layout example, with soem adjustments and improvements. for the original, see here: https://doc.qt.io/qt-5/qtwidgets-layouts-flowlayout-example.html.
+As the same suggests, it's a layout implementation to organize elements in a dynamic flow.
