@@ -14,3 +14,12 @@ The DialogMaster is one of the various modules of the library. If you need this 
  3. Same as 2, but with the master branch, if you need all of the modules.
  4. Same as 3, but use the library branch. This way you don't have to compile the utils. Note: 3 and 4 are compatible. You can easily switch between both of them. If you added the library via the `.pri` file, nothing will change from the outside.
  5. Build it yourself. This is, of course, always an option ;)
+
+## Modules
+### QProgressGroup
+A class to combine multiple kinds of progress indicators, and manage them with a combined interface. Example: YOu have a normal progressbar and a taskbar progress. Thanks to this class, you can simply add both to a progress group, and everytime you update the progress group, both bars will be updated accordingly.
+
+Currently supported kinds of progress elements are:
+- [QProgressBar](https://doc.qt.io/qt-5/qprogressbar.html)
+- [QSystemTrayIcon](https://doc.qt.io/qt-5/qsystemtrayicon.html) (With some additional code to make the tray show a busy indicator)
+- [QWinTaskbarProgress](https://doc.qt.io/qt-5/qwintaskbarprogress.html)
