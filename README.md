@@ -38,3 +38,6 @@ Currently supported kinds of progress elements are:
 - [QProgressBar](https://doc.qt.io/qt-5/qprogressbar.html)
 - [QSystemTrayIcon](https://doc.qt.io/qt-5/qsystemtrayicon.html) (With some additional code to make the tray show a busy indicator)
 - [QWinTaskbarProgress](https://doc.qt.io/qt-5/qwintaskbarprogress.html)
+
+### QSslServer
+The QSslServer is an extension of the [QTcpServer](https://doc.qt.io/qt-5/qtcpserver.html) to provide a server that can handle ssl connections. It works just like the tcp version, but with ssl, and uses the [QSslSocket](https://doc.qt.io/qt-5/qsslsocket.html) for connections.
