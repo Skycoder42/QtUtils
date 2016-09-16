@@ -30,3 +30,11 @@ A class to compress data of any size, by splitting it into chucks that Qt's buil
 ### QFlowLayout
 The Flow layout from Qts flow layout example, with soem adjustments and improvements. for the original, see here: https://doc.qt.io/qt-5/qtwidgets-layouts-flowlayout-example.html.
 As the same suggests, it's a layout implementation to organize elements in a dynamic flow.
+
+### QProgressGroup
+A class to combine multiple kinds of progress indicators, and manage them with a combined interface. Example: YOu have a normal progressbar and a taskbar progress. Thanks to this class, you can simply add both to a progress group, and everytime you update the progress group, both bars will be updated accordingly.
+
+Currently supported kinds of progress elements are:
+- [QProgressBar](https://doc.qt.io/qt-5/qprogressbar.html)
+- [QSystemTrayIcon](https://doc.qt.io/qt-5/qsystemtrayicon.html) (With some additional code to make the tray show a busy indicator)
+- [QWinTaskbarProgress](https://doc.qt.io/qt-5/qwintaskbarprogress.html)
