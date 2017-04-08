@@ -5,7 +5,7 @@ A collection of various Qt-Classes, branch-sorted.
 
 Currently on qpm:
 
-- DialogMaster: `de.skycoder42.dialog-master`
+- DialogMaster: [`de.skycoder42.dialog-master`](https://www.qpm.io/packages/de.skycoder42.dialog-master/index.html)
 
 ## Projekt structure
 The utils are simply a collection of various helpful Qt-Classes. Whats special about this project is the way they are organized:
