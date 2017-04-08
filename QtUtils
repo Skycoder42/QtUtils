@@ -6,7 +6,6 @@
 #include "qcompressor.h"
 
 #ifdef QT_WIDGETS_LIB
-#include "dialogmaster.h"
 #include "qflowlayout.h"
 #include "qprogressgroup.h"//TODO include all...
 #endif
