@@ -1,6 +1,12 @@
 # QtUtils
 A collection of various Qt-Classes, branch-sorted.
 
+**Important! This prject is slowly beeing replaced by qpm packages. Use those in your projects instead. The folders have been replaced with links to the new github projects.**
+
+Currently on qpm:
+
+- DialogMaster: `de.skycoder42.dialog-master`
+
 ## Projekt structure
 The utils are simply a collection of various helpful Qt-Classes. Whats special about this project is the way they are organized:
 Every part of thus library has it's own branch. All those branches are based on the "Base" branch. The master branch combines them all and provides a simple library projekt to include. The library branch contains the compiled library for all platforms (may not always be up to date!)
@@ -16,9 +22,6 @@ The DialogMaster is one of the various modules of the library. If you need this 
  5. Build it yourself. This is, of course, always an option ;)
 
 ## Modules
-### DialogMaster
-The dialog master provides advanced dialogs in Qt, automatically handling modality, window icons resizing and more!
-
 ### QPropertySettings
 The property settings are an extension for QSettings to autmatically store properties of an object in the settings.
 
